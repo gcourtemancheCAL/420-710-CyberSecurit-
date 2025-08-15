@@ -1,5 +1,4 @@
-[test](test.md)
-
+# Plan de cours #
 #### Section 0 - Présentation du cours ####
 ##### Les objectifs du cours #####
 - Démystifier le fonctionnement des systèmes informatiques
@@ -12,7 +11,7 @@
 - Vous apprendre à hacker
 - Faire de vous des experts en informatique
 #### Section 1 - Présentation des systèmes informatiques ####
--  Survol du fonctionnement d'un ordinateur
+-  [Survol du fonctionnement d'un ordinateur](1_Ordinateur.md)
 	- Les composantes matérielles
 	- Les composantes logiques
 - Introduction aux réseaux
