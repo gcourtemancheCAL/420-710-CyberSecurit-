@@ -33,7 +33,12 @@ L'analogie suivante pourrait être utilisée afin d'illustrer les différences e
 La carte mère rempli essentiellement deux fonctions : 
 - Connecte les différentes composantes entres elles.
 - Fourni les mécanismes permettant au processeur de communiquer avec les composantes physiques.
+### Périphériques ###
+Composants externes connectés à un ordinateur. Les périphériques peuvent servir d'*entrée* ou bien de *sortie.* 
 
+Les mentions entrée et sortie réfère à la direction des données du point de vue de l'ordinateur. Un périphérique sert donc d'entrée s'il fournit des données à l'ordinateur et de sortie s'il reçoit les données de l'ordinateur.
+
+![io](img/input-output.png)
 ## Vue logique ##
 ### Système d'exploitation ###
 Logiciel qui est exécuté au démarrage de l'ordinateur. Le système d'exploitation est responsable de : 
@@ -80,6 +85,21 @@ Un fichier de données va contenir de l'information destinée à être consommé
 
 Il existe une panoplie de formats différents - certains standardisés, d'autres plus ad-hoc - et chacune dispose de sa propre extension.
 
-Par exemple  : 
+**Par exemple  :**
 - Un fichier ".docx" est un fichier contenant des informations décrivant le contenu et le formatage d'un document texte. Les fichiers ".docx" sont lues par l'application Word.
 - Un fichier ".zip" est une archive compressée. Une archive contient d'autres fichiers et dossiers. Un logiciel de décompression doit être utilisé pour en extraire le contenu.
+#### Dossier ####
+Un dossier est un type spécial de fichier qui facilite l'organisation des fichiers sur un ordinateur. Un fichier peut contenir des fichiers et d'autres dossiers. 
+
+Cette structure de fichier et dossier compose une *arborescence*. Le mot arborescence fait référence à la forme des branches d'un arbre qui se séparent afin de former d'autres branches.
+
+![arborescence](fstree.webp)
+
+L'emplacement d'un fichier peut être décrit à l'aide d'un *chemin* indiquant les dossiers par lesquels nous devons passer afin d'arriver au fichier. 
+
+**Exemple :** *C:\Programmes\7-zip\7z.exe* est un chemin *complet* vers le fichier exécutable *7z.exe*. Pour rejoindre ce dossier nous devons commencer par le disque *C:*, ensuite naviguer dans le dossier *Programmes* suivi de *7-zip*. Une fois rendu dans ce dossier *7-zip* nous allons pouvoir trouver le fichier *7z.exe*.
+
+L'ordre des dossiers dans le chemin est important.
+
+**Exemple :**  Le chemin *C:\a\b\c* n'est pas le même chemin que *C:\b\a\c*
+
