@@ -60,7 +60,7 @@ Quelques exemples d'applications :
 - Google Chrome
 - Microsoft Word
 - Paint
-### Processus###
+### Processus
 Instance d'un programme en cours d'exécution.
 ### Fichier ###
 Ensemble de données séquencées et regroupé sous un même nom. Sous Windows, le nom d'un fichier va contenir une "extension" identifiant le format du fichier. 
